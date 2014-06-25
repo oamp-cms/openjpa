@@ -112,6 +112,14 @@ Getting Involved
           https://issues.apache.org/jira/browse/OPENJPA
 
 
+Included Changes in OpenJPA 2.2.2-ale
+-------------------------------------
+
+Bug
+
+    [OPENJPA-2285] - L2 cache doesn't store FK(s) back into the cache when lazy loading data.
+
+
 Included Changes in OpenJPA 2.2.2
 ---------------------------------
 
