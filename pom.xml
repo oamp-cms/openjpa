@@ -140,6 +140,11 @@
         <id>people.apache.org</id>
             <url>${site.deploy.url}</url>
       </site>
+      <repository>
+        <id>bintray-oamp-ale-openjpa-openjpa</id>
+        <name>oamp-ale-openjpa-openjpa</name>
+        <url>https://api.bintray.com/maven/oamp-ale/openjpa/openjpa</url>
+      </repository>
     </distributionManagement>
 
     <scm>
@@ -733,7 +738,7 @@
                     <version>2.1</version>
                     <configuration>
                         <useReleaseProfile>false</useReleaseProfile>
-                        <goals>deploy site site-deploy</goals>
+                        <goals>deploy</goals>
                         <arguments>-Papache-release,docbook-profile,test-derby,bval -DskipTests</arguments>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
                     </configuration>
